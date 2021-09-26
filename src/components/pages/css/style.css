@@ -1,0 +1,137 @@
+.vred{
+    border: 1px solid red;
+}
+
+body {
+    background-color: #f4f5f6;
+    letter-spacing: 0.75pt;
+    line-height: 1.6;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+main {
+    width: 60%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-container {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.profile {
+    background-color: #171B1D;
+    color: white;
+}
+
+.vertical-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.work-container  {
+background-color: #DDD;
+    border-radius: 25px;
+    font-size: 120%;
+}
+
+.about-container, .mywork-container{
+    font-size: 120%;
+}
+
+.profile-image {
+    height: 15vh;
+
+}
+
+.img-thumbnail {
+    transform: rotate(0deg);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
+    border-radius: 15px;
+    border: 1px solid black;
+    width:100%;
+}
+
+nav {
+    font-size: 120%;
+    text-transform: uppercase;
+    width:45vh;
+    white-space:nowrap;
+}
+
+.nav-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #eafc40
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #eafc40
+}
+
+.profile-name {
+    letter-spacing: 1px;
+}
+
+.profile-email {
+    letter-spacing: 1px;
+    color: #777;
+}
+
+
+@media screen and (max-width: 419px) {
+    .profile-image-right {
+        display: none;
+    }
+
+    .profile-image-center {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 420px) {
+    .profile-image-right {
+        display: block;
+    }
+
+    .profile-image-center {
+        display: none;
+    }
+
+
+}
+
+.contact-container{
+    padding: 5px 5px 5px 15px;
+    margin: 10px -10px 10px -10px;
+    border-radius: 3px;
+    line-height: normal;
+}
+
+.contact-container div{
+    font-size: 110%;
+}
+
+.contact-container a:link{
+    text-decoration: none;
+}
+
+.contact-container-left{
+    background-image: linear-gradient(to right, white, #f4f5f6)
+}
+.contact-container-right{
+    background-image: linear-gradient(to left, white, #f4f5f6)
+}

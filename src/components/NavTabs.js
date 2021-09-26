@@ -12,48 +12,79 @@ function NavTabs({pageToDraw, handlePageChange}) {
 
             <header>
                 <nav className="nav-container-top">
-                    <div className=""><a className="nav-item-right" href="#" onClick={() => handlePageChange('About')}>about
-                        me</a></div>
-                    <div className=""><a className="nav-item-right" href="#" onClick={() => handlePageChange('Work')}>my
-                        work</a></div>
-                    <div className=""><a className="nav-item-right"
-                                         href="javascript:window.open('/assets/pdf/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume</a>
-                    </div>
-                    <div className=""><a className="nav-item-right" href="#"
-                                         onClick={() => handlePageChange('Contact')}>Contact</a></div>
+                    <table className="nav-table vred">
+                        <tr>
+                            <td className="nav-table-cell">
+                                <a className="nav-item-right"
+                                   href="#"
+                                   onClick={() => handlePageChange('About')}>about me
+                                </a>
+                            </td>
+                            <td className="nav-table-cell">
+                                <a className="nav-item-right"
+                                   href="#"
+                                   onClick={() => handlePageChange('Work')}>my work
+                                </a>
+                            </td>
+                            <td className="nav-table-cell">
+                                <a className="nav-item-right"
+                                   href="javascript:window.open('/assets/pdf/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume
+                                </a>
+                            </td>
+                            <td className="nav-table-cell">
+                                <a className="nav-item-right" href="#"
+                                   onClick={() => handlePageChange('Contact')}>Contact
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
                 </nav>
+
                 <div className="profile flex-grid tenths">
-                    <div className="col-3 col-3-md col-10-sm profile-image-container vred">
+                    <div className="col-3 col-3-md col-10-sm profile-image-container">
                         <div className="profile-image-right"><img alt="" className="profile-image" src={profileJpg}/>
                         </div>
                         <div className="profile-image-center"><img alt="" className="profile-image" src={profileJpg}/>
                         </div>
                     </div>
-                    <div className="col-3 col-3-md col-10-sm text-center name-container vred">
-                        <span className="profile-name"><h1>Gianni Fontanot</h1></span>
-                        <span className="profile-email"><h4>giannifontanot@gmail.com</h4></span>
+                    <div className="col-3 col-3-md col-10-sm text-center name-container">
+                        <div className="profile-name">Gianni Fontanot</div>
+                        <div className="profile-email">giannifontanot@gmail.com</div>
                     </div>
 
-                    <div className="col-4 col-4-md col-10-sm vertical-centered  vred">
-                        <div className="flex-container">
-                            <div>
-                                <nav className="nav-container-right">
-                                    <div className="col-3 col-10-md col-10-sm"><a className="" href="#"
-                                                                                  onClick={() => handlePageChange('About')}>about
-                                        me</a></div>
-                                    <div className="col-3 col-10-md col-10-sm"><a className="" href="#"
-                                                                                  onClick={() => handlePageChange('Work')}>my
-                                        work</a></div>
-                                    <div className="col-2 col-10-md col-10-sm"><a className=""
-                                                                                  href="javascript:window.open('/assets/pdf/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume</a>
-                                    </div>
-                                    <div className="col-2 col-10-md col-10-sm"><a className="" href="#"
-                                                                                  onClick={() => handlePageChange('Contact')}>Contact</a>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
+                    <nav className="nav-container-right col-4 col-4-md col-10-sm vertical-centered">
+
+
+                            <table className="nav-table">
+                                <tr>
+                                    <td>
+                                        <a className=""
+                                           href="#"
+                                           onClick={() => handlePageChange('About')}>about me
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a className=""
+                                           href="#"
+                                           onClick={() => handlePageChange('Work')}>my work
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a className=""
+                                           href="javascript:window.open('/assets/pdf/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a className=""
+                                           href="#"
+                                           onClick={() => handlePageChange('Contact')}>Contact
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </nav>
+
+
                 </div>
             </header>
         </div>

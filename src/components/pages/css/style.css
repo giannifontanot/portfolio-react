@@ -1,17 +1,37 @@
 .vred {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
     background-color: #f4f5f6;
     letter-spacing: 0.75pt;
     line-height: 1.6;
+    font-family: Verdana, sans-serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+
 }
+
+.profile-name{
+    font-weight: bold;
+    color: #FFF;
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+.profile-email {
+    font-weight: normal;
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: 1.5px;
+    color: #777;
+}
+
+header{
+    background-color: #171B1D;
+}
+
 
 main {
     width: 60%;
@@ -39,17 +59,16 @@ main {
 .work-container {
     background-color: #DDD;
     border-radius: 25px;
-    font-size: 120%;
+    font-size: 100%;
 }
 
-.about-container, .mywork-container {
-    font-size: 120%;
+.about-container {
+    font-size: 100%;
 }
 
 
 .profile-image {
-    height: 15vh;
-
+    height: 25vw;
 }
 
 .img-thumbnail {
@@ -61,15 +80,37 @@ main {
 }
 
 nav {
-    font-size: 120%;
+    font-size: 100%;
     text-transform: uppercase;
     width: 45vh;
     white-space: nowrap;
 }
 
+.nav-table {
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-table-cell{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-radius: 3px;
+    background-color:  #2A2520;
+}
+
+.nav-table-cell-active{
+    background-color:  #121311;
+}
+
+.nav-container-top {
+    width: 100%;
+}
+
 .nav-container-right {
-    display: flex;
-    flex-direction: row;
     width: 100%;
 }
 
@@ -92,16 +133,6 @@ nav a:visited {
     text-decoration: none;
     color: #eafc40
 }
-
-.profile-name {
-    letter-spacing: 1px;
-}
-
-.profile-email {
-    letter-spacing: 1px;
-    color: #777;
-}
-
 
 .flex-container {
     display: flex;
@@ -143,7 +174,20 @@ nav a:visited {
         display: block;
     }
 
+    .nav-container-top {
+        display: none;
+    }
 
+    .profile-image {
+        height: 15vh;
+    }
+
+    .profile-name {
+        font-size: 32px;
+    }
+    .profile-email {
+        font-size: 19px;
+    }
 }
 
 /*SMALL screen*/
@@ -158,19 +202,27 @@ nav a:visited {
 
     .profile-image-container {
         justify-content: center;
-        background-color: red;
     }
 
-    .nav-item-right {
-        display: none;
-        background-color: red;
-    }
 
     .nav-container-right {
         display: none;
     }
 
+    .nav-container-top {
+        display: block;
+        font-size: 1.8vh;
+    }
 
+    .profile-image {
+        height: 25vw;
+    }
+    .profile-name {
+        font-size: 7vw;
+    }
+    .profile-email {
+        font-size: 5vw;
+    }
 }
 
 .contact-container {

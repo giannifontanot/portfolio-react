@@ -1,4 +1,4 @@
-.vred{
+.vred {
     border: 1px solid red;
 }
 
@@ -36,15 +36,16 @@ main {
     margin-bottom: auto;
 }
 
-.work-container  {
-background-color: #DDD;
+.work-container {
+    background-color: #DDD;
     border-radius: 25px;
     font-size: 120%;
 }
 
-.about-container, .mywork-container{
+.about-container, .mywork-container {
     font-size: 120%;
 }
+
 
 .profile-image {
     height: 15vh;
@@ -56,17 +57,28 @@ background-color: #DDD;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
     border-radius: 15px;
     border: 1px solid black;
-    width:100%;
+    width: 100%;
 }
 
 nav {
     font-size: 120%;
     text-transform: uppercase;
-    width:45vh;
-    white-space:nowrap;
+    width: 45vh;
+    white-space: nowrap;
 }
 
-.nav-container {
+.nav-container-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.vertical-centered {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-container-bottom {
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -91,17 +103,29 @@ nav a:visited {
 }
 
 
-@media screen and (max-width: 419px) {
-    .profile-image-right {
-        display: none;
-    }
-
-    .profile-image-center {
-        display: block;
-    }
-
+.flex-container {
+    display: flex;
 }
 
+/*.................................................................................*/
+.profile-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-image-right {
+    background-color: white;
+}
+
+/*.................................................................................*/
+
+.profile-image-center {
+    background-color: white;
+}
+
+
+/*BIG screen*/
 @media screen and (min-width: 420px) {
     .profile-image-right {
         display: block;
@@ -111,27 +135,63 @@ nav a:visited {
         display: none;
     }
 
+    .profile-image-container {
+        justify-content: flex-end;
+    }
+
+    .nav-container-right {
+        display: block;
+    }
+
 
 }
 
-.contact-container{
+/*SMALL screen*/
+@media screen and (max-width: 419px) {
+    .profile-image-right {
+        display: none;
+    }
+
+    .profile-image-center {
+        display: block;
+    }
+
+    .profile-image-container {
+        justify-content: center;
+        background-color: red;
+    }
+
+    .nav-item-right {
+        display: none;
+        background-color: red;
+    }
+
+    .nav-container-right {
+        display: none;
+    }
+
+
+}
+
+.contact-container {
     padding: 5px 5px 5px 15px;
     margin: 10px -10px 10px -10px;
     border-radius: 3px;
     line-height: normal;
 }
 
-.contact-container div{
+.contact-container div {
     font-size: 110%;
 }
 
-.contact-container a:link{
+.contact-container a:link {
     text-decoration: none;
 }
 
-.contact-container-left{
+.contact-container-left {
     background-image: linear-gradient(to right, white, #f4f5f6)
 }
-.contact-container-right{
+
+.contact-container-right {
     background-image: linear-gradient(to left, white, #f4f5f6)
 }

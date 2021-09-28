@@ -1,3 +1,25 @@
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary,
+.button-github-repository,
+.button-live-link,
+.button-disabled {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-github-repository {
+    background-color: #F2134F;
+    margin: 2px;
+}
+
+.button-live-link {
+    background: #359AF2;
+    margin: 2px;
+}
+
 .vred {
     /*border: 1px solid red;*/
 }
@@ -14,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.profile-name{
+.profile-name {
     font-weight: bold;
     color: #FFF;
     font-family: "Helvetica Neue", sans-serif;
@@ -28,13 +50,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #777;
 }
 
-header{
+header {
     background-color: #171B1D;
 }
 
 
 main {
-    width: 60%;
+    width: 75%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -59,11 +81,11 @@ main {
 .work-container {
     background-color: #DDD;
     border-radius: 25px;
-    font-size: 100%;
+
 }
 
 .about-container {
-    font-size: 100%;
+    fxont-size: 100%;
 }
 
 
@@ -89,21 +111,23 @@ nav {
 .nav-table {
     width: 100%;
     text-align: center;
-    height: 8vh;
+    height: 5.5vh;
     padding: 0;
     margin: 0;
 }
 
-.nav-table-cell{
+.nav-table-cell {
+    border-bottom: 1px solid gray;
+    border-radius: 3px;
+    background-color: #2A2520;
+}
+
+.nav-table-cell-active {
     border-top: 1px solid gray;
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     border-radius: 3px;
-    background-color:  #2A2520;
-}
-
-.nav-table-cell-active{
-    background-color:  #121311;
+    background-color: #121311;
 }
 
 .nav-container-top {
@@ -185,8 +209,14 @@ nav a:visited {
     .profile-name {
         font-size: 32px;
     }
+
     .profile-email {
         font-size: 19px;
+    }
+
+    body {
+        letter-spacing: 0.75pt;
+        line-height: 1.6;
     }
 }
 
@@ -217,11 +247,21 @@ nav a:visited {
     .profile-image {
         height: 25vw;
     }
+
     .profile-name {
         font-size: 7vw;
     }
+
     .profile-email {
         font-size: 5vw;
+    }
+
+    .work-container {
+        font-size: 90%;
+    }
+
+    main {
+        width: 80%;
     }
 }
 
@@ -246,4 +286,26 @@ nav a:visited {
 
 .contact-container-right {
     background-image: linear-gradient(to left, white, #f4f5f6)
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.button-red {
+    background-color: #DE3163;
+    color: white;
+}
+
+.button-blue {
+    background-color: #3196de;
+    color: white;
 }

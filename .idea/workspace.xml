@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/scripts/commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/Date-night-in.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/ecommerce-backend.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/employee-management-system.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/goldengate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/password-generator.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portada-tech-blog.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portfolio-site.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portfolio.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/tech-blog.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/test-taker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/img/weather-dashboard.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,23 +66,27 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages" />
+      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\img" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\public\assets" />
+      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\scripts" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\img" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages" />
-      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\public\assets" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\css" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632614409792</updated>
-      <workItem from="1632614418024" duration="31713000" />
+      <workItem from="1632614418024" duration="40797000" />
+      <workItem from="1632791328143" duration="20419000" />
     </task>
     <servers />
   </component>
@@ -93,5 +118,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

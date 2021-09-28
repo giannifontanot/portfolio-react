@@ -14,24 +14,24 @@ function NavTabs({pageToDraw, handlePageChange}) {
                 <nav className="nav-container-top">
                     <table className="nav-table vred">
                         <tr>
-                            <td className="nav-table-cell">
+                            <td className={pageToDraw === 'About' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
                                    onClick={() => handlePageChange('About')}>about me
                                 </a>
                             </td>
-                            <td className="nav-table-cell">
+                            <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
                                    onClick={() => handlePageChange('Work')}>my work
                                 </a>
                             </td>
-                            <td className="nav-table-cell">
+                            <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="javascript:window.open('/assets/pdf/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume
                                 </a>
                             </td>
-                            <td className="nav-table-cell">
+                            <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right" href="#"
                                    onClick={() => handlePageChange('Contact')}>Contact
                                 </a>

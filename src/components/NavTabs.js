@@ -71,7 +71,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                                     </td>
                                     <td>
                                         <a className=""
-                                           href="javascript:window.open('/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume
+                                           href="javascript:window.open('{process.env.PUBLIC_URL}/Gianni-Fontanot-RESUME-9-24-2021.pdf', '_blank');">resume
                                         </a>
                                     </td>
                                     <td>

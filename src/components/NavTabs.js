@@ -71,7 +71,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                                     </td>
                                     <td>
                                         <a className=""
-                                           href="javascript:window.open('/resume.pdf', '_blank');">resume
+                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} download>resume
                                         </a>
                                     </td>
                                     <td>

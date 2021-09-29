@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTabs.js" afterDir="false" />
-    </list>
+    <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +53,11 @@
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\public\assets\pdf" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\public" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\public\assets" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\scripts" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\img" />
-      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,7 +86,7 @@
       <workItem from="1632614418024" duration="40797000" />
       <workItem from="1632791328143" duration="25099000" />
       <workItem from="1632911205088" duration="9316000" />
-      <workItem from="1632943338587" duration="5575000" />
+      <workItem from="1632943338587" duration="5904000" />
     </task>
     <servers />
   </component>

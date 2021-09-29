@@ -4,7 +4,7 @@ import ButtonContainer from './ButtonContainer'
 
 export default function ContentsProject(props){
     return(
-        <div className="col-4 col-4-md col-10-sm text-left vertical-center">
+        <div className="col-4 col-4-md col-10-sm text-left vertical-center ContentsProject">
 
             <ProjectDescription
                 title={props.title}

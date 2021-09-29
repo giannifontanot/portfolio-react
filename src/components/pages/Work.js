@@ -6,14 +6,14 @@ import TestTakerGif from '../pages/img/test-taker.gif'
 import WeatherDashboardGif from '../pages/img/weather-dashboard.gif'
 import PortfolioGif from '../pages/img/portfolio.gif'
 import Project from '../Project'
-import Strong from '../Strong'
+
 
 
 export default function Work() {
     return (
         <div>
             <div className="flex-grid">
-                <div className="main-content">
+                    <div className="main-content" style={{backgroundColor: "lightgray"}}>
                     <main>
 
                         <div className="mywork-container">

@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status Stable](https://img.shields.io/badge/Status-Stable-blue)
+[![MIT License](https://img.shields.io/badge/License-MIT%20License-brightgreen)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+# Professional Portfolio
+This is my professional portfolio to show the best of what I have done. You will find links to the actual GitHub repository for those projects and also to my resume and contact information.
+## Table of Contents
+- Professional Portfolio
+	* [Installation](#installation)
+	* [Usage](#usage)
+	* [Credits](#credits)
+	* [Features](#features)
+	* [Contributions](#contributions)
+- [🔗 Links](#---links)
+	+ [GitHub Repository](#github-repository)
+	+ [Live Link](#live-link)
+	+ [Support](#support)
+	+ [Authors](#authors)
+## Installation
+The PureCSS library is an essential component, but on top of that, I used only normal HTML, CSS, and Javascript code.
+## Usage
+You can fork the project and use it for your own portfolio, it is listed under the MIT license.
 
-## Available Scripts
+![portfolio.gif](portfolio.gif)
+## Credits
+Following you will find the websites that helped me the most:
+- [https://purecss.io/](https://purecss.io/)
+- [https://css-tricks.com/solved-with-css-dropdown-menus/](https://css-tricks.com/solved-with-css-dropdown-menus/) 
+- [https://www.freecodecamp.org/an-animated-guide-to-flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) 
+- [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
+- [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
+- [http://typegoodness.com/2018/04/big-john-free-font/](https://color.adobe.com/create/image)[https://color.adobe.com/create/image)
+- [https://www.labnol.org/code/20079-center-div-with-pure-css](https://www.labnol.org/code/20079-center-div-with-pure-css) 
+- [https://www.flexboxgame.com/](https://www.flexboxgame.com/)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Current Features
+````````````````````````
+- The website is very easy to navigate.
+- It is in itself a project, it was very hard to code!
+- The code is made from scratch using the PureCSS library.
+````````````````````````
+## Future Features
+````````````````````````
+- I will add the projects that I am currently working on 
+- Users will have the opportunity to send a message right from the screen
+````````````````````````
+## Contributions
+If you would like to contribute to this project , you are very welcome! You can fork it and later submit a pull request. 
+In case you need them, here are some guidelines: [Contributor Covenant](https://www.contributor-covenant.org/)
+# 🔗 Links
+### GitHub Repository
+[https://github.com/giannifontanot/portfolio/](https://github.com/giannifontanot/portfolio/)
+### Live Link
+[https://giannifontanot.github.io/portfolio](https://giannifontanot.github.io/portfolio)
+### Support
+If you need help with this project, please write to: [giannifontanot@gmail.com](https://mailto:giannifontanot@gmail.com)
+### Authors
+ - [@giannifontanot](https://www.github.com/giannifontanot)
+ - [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://giannifontanot.github.io/portfolio/)
+ - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gianni-fontanot/)

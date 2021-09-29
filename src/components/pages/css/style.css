@@ -23,13 +23,7 @@
 .vred {
     /*border: 1px solid red;*/
  }
- console.log("--->     /*border: 1px solid red;*/
- :" + JSON.stringify (    /*border: 1px solid red;*/
-) );")
 
- console.log("---> ) );")
- :" + json.STRINGIFY () );")
-) );")
 body {
     background-color: #DDD;
     letter-spacing: 0.75pt;
@@ -58,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-color: #171B1D;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
 }
 
 
@@ -87,6 +82,7 @@ main {
 .work-container {
     background-color: #f4f5f6;
     border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
 
 }
 
@@ -318,5 +314,20 @@ nav a:visited {
 
 .imgProject{
     cursor: pointer;
+}
+
+.ProjectDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    font-size: calc(15px + 0.5vw)
+}
+
+.ContentsProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    marxgin-top: 2vh;
 }
 

@@ -5,7 +5,8 @@ import EMSGif from '../pages/img/employee-management-system.gif'
 import TestTakerGif from '../pages/img/test-taker.gif'
 import WeatherDashboardGif from '../pages/img/weather-dashboard.gif'
 import PortfolioGif from '../pages/img/portfolio.gif'
-import PortfolioSiteGif from '../pages/img/portfolio-site.gif'
+import Project from '../Project'
+import Strong from '../Strong'
 
 
 export default function Work() {
@@ -19,46 +20,52 @@ export default function Work() {
                             <a id="work"></a>
                             <h2>My Work</h2>
                             <hr/>
-                            Some time ago, I developed some small programs using
-                            HTML, CSS and Javascript to help the children get better
-                            in our Math lessons:<br/><br/>
+                            Following you will find a selection of my best projects completed during my <strong>Bootcamp</strong> in <strong>SMU</strong>. Click on any image to see it <strong>bigger!</strong><br/><br/>
                         </div>
 
-                        <Project name="Tech Blog"
+                        <Project title="Tech Blog"
+                                 subtitle="A Blog Site for Techies"
                                  location="tech-blog"
                                  live="Heroku"
                                  image={TechBlogGif}
-                                 content="This project is made using handlebars to generate the front-end dynamically, and Squelize with MySQL to record blogger's entries in the back-end. It is live on Heroku!"
+                                 content={<React.Fragment>This project is made using <strong>Express' handlebars</strong> to generate the front-end
+                                  dynamically, and <strong>Squelize</strong> with <strong>MySQL</strong> to record blogger's entries in the back-end.
+                                  It is live on <strong>Heroku!</strong></React.Fragment>}
                         />
-                        <Project name="Employee Management System"
+                        <Project title="Employee Management System"
+                                 subtitle="Manage Your Business"
                                  location="employee-management-system"
                                  live="none"
                                  image={EMSGif}
-                                 content="This application helps a small business owner to organize the departments, roles, and employees in the company. It uses the terminal as a front-end and interacts with MySQL and InquirerJS in the back-end."
+                                 content={<React.Fragment>This application helps a small business owner to organize the departments, roles, and employees in the company. It is a <strong>back-end project</strong> that uses the <strong>terminal</strong> as a front-end and interacts with <strong>MySQL</strong> and <strong>InquirerJS</strong> in the back-end.</React.Fragment>}
                         />
-                        <Project name="Test Taker"
+                        <Project title="Test Taker"
+                                 subtitle="Show What You Know"
                                  location="test-taker"
                                  live="GitHub"
                                  image={TestTakerGif}
-                                 content="This little app is built with Javascript, CSS, and HTML, and although it doesn't have a back-end per se, it saves your score using your browser's local storage."
+                                 content={<React.Fragment>This little app is built with <strong>Javascript, CSS, and HTML</strong>, and although it doesn't have a back-end per se, it saves your score using your browser's <strong>local storage</strong>.</React.Fragment>}
                         />
-                        <Project name="E-commerce Backend"
+                        <Project title="E-commerce Backend"
+                                 subtitle="Organize Your Inventory"
                                  location="ecommerce-backend"
                                  live="none"
                                  image={EcommerceBackendGif}
-                                 content="This is a backend project that helps a small business organize their products. This application uses Sequelize and Express JS to abstract the SQL into regular Javascript code."
+                                 content={<React.Fragment>This is a <strong>backend project</strong> that helps a small business organize their products. This application uses <strong>Sequelize</strong> and <strong>Express JS</strong> to abstract the SQL into regular Javascript code.</React.Fragment>}
                         />
-                        <Project name="Portfolio Site"
+                        <Project title="This Portfolio Site"
+                                 subtitle="My Best Projects"
                                  location="portfolio-react"
                                  live="none"
                                  image={PortfolioGif}
-                                 content="This is my website to show my projects, and it's in itself a whole project. I used React, PureCSS, CSS, media queries, HTML, and Javascript to build it. No pre-made templates!"
+                                 content={<React.Fragment>This is my website to show my projects, and it's in itself a whole project. I used <strong>React, PureCSS, CSS, media queries</strong>, and <strong>HTML5</strong> to build it. No pre-made templates!</React.Fragment>}
                         />
-                        <Project name="Weather Dashboard"
+                        <Project title="Weather Dashboard"
+                                 subtitle="Do You Need an Umbrella?"
                                  location="Wheather-Dashboard"
                                  live="GitHub"
                                  image={WeatherDashboardGif}
-                                 content="This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!"
+                                 content={<React.Fragment>This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!</React.Fragment>}
                         />
                     </main>
                 </div>
@@ -68,82 +75,10 @@ export default function Work() {
 }
 
 
-function ImgWork(props){
-    return(
-        <div className="col-5 col-5-md col-10-sm text-center vertical-center">
-            <img alt="" className="img-thumbnail" src={props.src}/>
-        </div>
-    );
-}
-function ProjectDescription(props) {
-    return (
-        <div>
-            <h4>{props.title}</h4>
-            <p>{props.content}</p>
-        </div>
-
-    );
-}
-
-function ButtonContainer(props){
-    let live;
-    if(props.live === 'GitHub'){
-        live = "GitHub";
-    }else if(props.live === 'Heroku'){
-        live = "Heroku";
-    }
-
-    let btnLive = false;
-    if(props.live != 'none'){
-        btnLive = true;
-    }
 
 
 
-    return(
-        <div className="button-container">
-            <button className="button button-red"
-                    onClick={() => window["fOpenRepo"](props.location)}>
-
-                <i className="fab fa-github"></i>&nbsp;&nbsp;GitHub repo
-            </button>
-            &nbsp;
 
 
-            {
-                (btnLive && <button className="button button-blue"
-                        onClick={() => window["fOpenLive"+live](props.location)}>
-                    <i className="fas fa-satellite-dish"></i>&nbsp;&nbsp;Live link
-                </button>) || ""
-            }
 
-        </div>
-    );
-}
 
-function ContentsProject(props){
-    return(
-        <div className="col-5 col-5-md col-10-sm text-left vertical-center">
-
-            <ProjectDescription
-                title={props.name}
-                content={props.content}
-            />
-
-            <ButtonContainer location={props.location} live={props.live} />
-        </div>
-    );
-}
-
-function Project(props){
-    return(
-        <div>
-        <div className="flex-grid tenths work-container">
-
-                <ContentsProject name={props.name} location={props.location} live={props.live} content={props.content} />
-                <ImgWork src={props.image} />
-        </div>
-            <br /><br />
-        </div>
-    );
-}

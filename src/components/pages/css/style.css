@@ -22,10 +22,16 @@
 
 .vred {
     /*border: 1px solid red;*/
-}
+ }
+ console.log("--->     /*border: 1px solid red;*/
+ :" + JSON.stringify (    /*border: 1px solid red;*/
+) );")
 
+ console.log("---> ) );")
+ :" + json.STRINGIFY () );")
+) );")
 body {
-    background-color: #f4f5f6;
+    background-color: #DDD;
     letter-spacing: 0.75pt;
     line-height: 1.6;
     font-family: Verdana, sans-serif;
@@ -79,7 +85,7 @@ main {
 }
 
 .work-container {
-    background-color: #DDD;
+    background-color: #f4f5f6;
     border-radius: 25px;
 
 }
@@ -309,3 +315,8 @@ nav a:visited {
     background-color: #3196de;
     color: white;
 }
+
+.imgProject{
+    cursor: pointer;
+}
+

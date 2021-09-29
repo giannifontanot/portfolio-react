@@ -116,3 +116,12 @@ function fOpenRepoOther(pRepo, pPage) {
         console.error('fOpenRepo: ' + 'type: ' + e.messageType + ' message: ' + e.message);
     }
 }
+
+/**
+ * Open Image in a new tab
+ * @param image
+ */
+function fOpenImage(image){
+    //document.getElementsByTagName("img").style.cursor = "pointer";
+    window.open(image, '_blank',);
+}

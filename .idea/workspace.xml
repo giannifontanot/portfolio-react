@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/scripts/commons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/Date-night-in.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/ecommerce-backend.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/employee-management-system.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/goldengate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/img3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/password-generator.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portada-tech-blog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portfolio-site.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/portfolio.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/school.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/tech-blog.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/test-taker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/img/weather-dashboard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ButtonContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentsProject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImgWork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Strong.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/scripts/commons.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scripts/commons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/css/style.css" afterDir="false" />
     </list>
@@ -30,6 +19,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,15 +74,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1632614409792</updated>
       <workItem from="1632614418024" duration="40797000" />
-      <workItem from="1632791328143" duration="20419000" />
+      <workItem from="1632791328143" duration="25099000" />
+      <workItem from="1632911205088" duration="5541000" />
     </task>
     <servers />
   </component>

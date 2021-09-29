@@ -28,7 +28,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
-                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"}  target="_blank">resume
+                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} target="_blank">resume
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>
@@ -71,7 +71,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                                     </td>
                                     <td>
                                         <a className=""
-                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} download>resume
+                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"}  target="_blank">resume
                                         </a>
                                     </td>
                                     <td>

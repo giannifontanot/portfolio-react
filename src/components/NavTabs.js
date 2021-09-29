@@ -28,7 +28,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
-                                   href="javascript:window.open('/assets/pdf/resume.pdf', '_blank');">resume
+                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} download>resume
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>

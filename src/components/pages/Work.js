@@ -20,7 +20,7 @@ export default function Work() {
                             <a id="work"></a>
                             <h2>My Work</h2>
                             <hr/>
-                            Following you will find a selection of my best projects completed during my <strong>Bootcamp</strong> in <strong>SMU</strong>. Click on any image to see it <strong>bigger!</strong><br/><br/>
+                            Following you will find a selection of my best projects completed during my <strong>Bootcamp</strong> in <strong>SMU</strong>.<br/><br/>
                         </div>
 
                         <Project title="Tech Blog"

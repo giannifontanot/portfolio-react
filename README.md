@@ -1,10 +1,10 @@
 
 ![Status Stable](https://img.shields.io/badge/Status-Stable-blue)
 [![MIT License](https://img.shields.io/badge/License-MIT%20License-brightgreen)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-# Professional Portfolio
+# Professional Portfolio - React
 This is my professional portfolio to show the best of what I have done. You will find links to the actual GitHub repository for those projects and also to my resume and contact information.
 ## Table of Contents
-- Professional Portfolio
+- Professional Portfolio - React
 	* [Installation](#installation)
 	* [Usage](#usage)
 	* [Credits](#credits)

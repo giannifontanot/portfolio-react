@@ -4,6 +4,7 @@ import EcommerceBackendGif from '../pages/img/ecommerce-backend.jpg'
 import EMSGif from '../pages/img/employee-management-system.jpg'
 import TestTakerGif from '../pages/img/test-taker.jpg'
 import WeatherDashboardGif from '../pages/img/weather-dashboard.jpg'
+import PasswordGeneratorGif from '../pages/img/password-generator.gif'
 import PortfolioGif from '../pages/img/portfolio.jpg'
 import Project from '../Project'
 
@@ -66,6 +67,13 @@ export default function Work() {
                                  live="GitHub"
                                  image={WeatherDashboardGif}
                                  content={<React.Fragment>This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!</React.Fragment>}
+                        />
+                        <Project title="Password Generator"
+                                 subtitle="Create yours today"
+                                 location="password-generator"
+                                 live="GitHub"
+                                 image={PasswordGeneratorGif}
+                                 content={<React.Fragment>Password generator is a webapp that creates a password following this criteria: It can have from 1 to 128 combinations of lowercase, uppercase, numeric, and/or special characters.</React.Fragment>}
                         />
                     </main>
                         <footer><div>&copy; 2021 Gianni Fontanot</div></footer>

@@ -329,7 +329,7 @@ nav a:visited {
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 5vh;
-    font-size: calc(15px + 0.1vw)
+    font-size: calc(12px + 0.1vw)
 }
 
 .ContentsProject {

@@ -22,7 +22,7 @@
 
 .vred {
     /*border: 1px solid red;*/
- }
+}
 
 body {
     background-color: #DDD;
@@ -220,6 +220,10 @@ nav a:visited {
         letter-spacing: 0.75pt;
         line-height: 1.6;
     }
+
+    .polaroid {
+        width: 150px;
+    }
 }
 
 /*SMALL screen*/
@@ -264,6 +268,10 @@ nav a:visited {
 
     main {
         width: 80%;
+    }
+
+    .polaroid {
+        width: 45vw;
     }
 }
 
@@ -312,11 +320,11 @@ nav a:visited {
     color: white;
 }
 
-.imgProject{
+.imgProject {
     cursor: pointer;
 }
 
-.ProjectDescription{
+.ProjectDescription {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -324,10 +332,40 @@ nav a:visited {
     font-size: calc(15px + 0.5vw)
 }
 
-.ContentsProject{
+.ContentsProject {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     marxgin-top: 2vh;
+}
+
+.polaroid-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.polaroid {
+    background-color: #fff;
+    padding: 10px 10px 35px 10px;
+    border-radius: 5px;
+    /*// width: 150px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rotate-15 {
+    transform: rotate(-15deg);
+}
+
+.rotate20 {
+    transform: rotate(20deg);
+}
+
+.rotate10 {
+    transform: rotate(10deg);
 }
 

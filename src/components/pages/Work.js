@@ -1,10 +1,10 @@
 import React from 'react';
-import TechBlogGif from '../pages/img/tech-blog.gif'
-import EcommerceBackendGif from '../pages/img/ecommerce-backend.gif'
-import EMSGif from '../pages/img/employee-management-system.gif'
-import TestTakerGif from '../pages/img/test-taker.gif'
-import WeatherDashboardGif from '../pages/img/weather-dashboard.gif'
-import PortfolioGif from '../pages/img/portfolio.gif'
+import TechBlogGif from '../pages/img/tech-blog.jpg'
+import EcommerceBackendGif from '../pages/img/ecommerce-backend.jpg'
+import EMSGif from '../pages/img/employee-management-system.jpg'
+import TestTakerGif from '../pages/img/test-taker.jpg'
+import WeatherDashboardGif from '../pages/img/weather-dashboard.jpg'
+import PortfolioGif from '../pages/img/portfolio.jpg'
 import Project from '../Project'
 
 

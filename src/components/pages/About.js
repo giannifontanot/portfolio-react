@@ -1,4 +1,8 @@
 import React from 'react';
+import img1 from '../pages/img/img1.jpeg'
+import img2 from '../pages/img/img2.jpeg'
+import img3 from '../pages/img/img3.jpeg'
+
 
 export default function About() {
   return (
@@ -26,7 +30,18 @@ export default function About() {
                   </main>
                   </div>
           </div>
-
+          <br />
+          <div className="polaroid-container">
+              <div className="polaroid rotate-15">
+                  <img className="pure-img img-about" src={img1} alt="" />
+              </div>
+              <div className="polaroid rotate20">
+                  <img className="pure-img img-about" src={img2} alt="" />
+              </div>
+              <div className="polaroid rotate10">
+                  <img className="pure-img img-about" src={img3} alt="" />
+              </div>
+          </div>
       </div>
   );
 }

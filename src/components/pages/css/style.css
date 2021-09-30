@@ -225,7 +225,7 @@ nav a:visited {
         width: 150px;
     }
     .ProjectDescription {
-        font-size: calc(12px + 0.5vw)
+        font-size: calc(12px + 0.5vw);
         line-height: 1.6;
     }
 }

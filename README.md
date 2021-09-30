@@ -16,13 +16,15 @@ This is my professional portfolio to show the best of what I have done. You will
 	+ [Support](#support)
 	+ [Authors](#authors)
 ## Installation
-The PureCSS library is an essential component, but on top of that, I used only normal HTML, CSS, and Javascript code.
+I used React to create this portfolio, and the PureCSS library is an essential component along with  normal HTML, CSS, and Javascript code.
 ## Usage
 You can fork the project and use it for your own portfolio, it is listed under the MIT license.
 
-![portfolio.gif](portfolio.gif)
+![portfolio.gif](portfolio-react.gif)
 ## Credits
 Following you will find the websites that helped me the most:
+- [React for Beginners](https://www.guru99.com/reactjs-tutorial.html)
+- [How to deploy your React App to GitHub pages](https://brayanarrieta.hashnode.dev/how-to-deploy-your-react-app-to-github-pages#:~:text=How%20to%20deploy%20your%20React%20App%20to%20GitHub,changes.%20...%207%20Conclusion.%20...%208%20References.%20)
 - [https://purecss.io/](https://purecss.io/)
 - [https://css-tricks.com/solved-with-css-dropdown-menus/](https://css-tricks.com/solved-with-css-dropdown-menus/) 
 - [https://www.freecodecamp.org/an-animated-guide-to-flexbox](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/) 
@@ -34,6 +36,7 @@ Following you will find the websites that helped me the most:
 
 ## Current Features
 ````````````````````````
+- I used React to create this portfolio
 - The website is very easy to navigate.
 - It is in itself a project, it was very hard to code!
 - The code is made from scratch using the PureCSS library.
@@ -48,9 +51,9 @@ If you would like to contribute to this project , you are very welcome! You can 
 In case you need them, here are some guidelines: [Contributor Covenant](https://www.contributor-covenant.org/)
 # 🔗 Links
 ### GitHub Repository
-[https://github.com/giannifontanot/portfolio/](https://github.com/giannifontanot/portfolio/)
+[https://github.com/giannifontanot/portfolio-react/](https://github.com/giannifontanot/portfolio-react/)
 ### Live Link
-[https://giannifontanot.github.io/portfolio](https://giannifontanot.github.io/portfolio)
+[https://giannifontanot.github.io/portfolio-react](https://giannifontanot.github.io/portfolio-react)
 ### Support
 If you need help with this project, please write to: [giannifontanot@gmail.com](https://mailto:giannifontanot@gmail.com)
 ### Authors

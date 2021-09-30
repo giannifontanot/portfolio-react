@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages\img" />
       <recent name="C:\Users\giann\Dropbox\IdeaProjects\portfolio-react\src\components\pages" />
@@ -78,7 +79,7 @@
       <workItem from="1632911205088" duration="9316000" />
       <workItem from="1632943338587" duration="19750000" />
       <workItem from="1633011947899" duration="4284000" />
-      <workItem from="1633017150620" duration="284000" />
+      <workItem from="1633017150620" duration="1725000" />
     </task>
     <servers />
   </component>

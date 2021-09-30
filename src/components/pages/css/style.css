@@ -183,7 +183,7 @@ nav a:visited {
 
 
 /*BIG screen*/
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 369px) {
     .profile-image-right {
         display: block;
     }
@@ -231,7 +231,7 @@ nav a:visited {
 }
 
 /*SMALL screen*/
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 370px) {
     .profile-image-right {
         display: none;
     }

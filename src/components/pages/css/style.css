@@ -183,7 +183,7 @@ nav a:visited {
 
 
 /*BIG screen*/
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
     .profile-image-right {
         display: block;
     }
@@ -224,10 +224,13 @@ nav a:visited {
     .polaroid {
         width: 150px;
     }
+    .ProjectDescription {
+        font-size: calc(12px + 0.5vw)
+    }
 }
 
 /*SMALL screen*/
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 399px) {
     .profile-image-right {
         display: none;
     }
@@ -272,6 +275,9 @@ nav a:visited {
 
     .polaroid {
         width: 45vw;
+    }
+    .ProjectDescription {
+        font-size: calc(12px + 0.1vw)
     }
 }
 
@@ -329,7 +335,7 @@ nav a:visited {
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 5vh;
-    font-size: calc(12px + 0.1vw)
+
 }
 
 .ContentsProject {

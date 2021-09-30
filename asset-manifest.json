@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.8501c8de.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.3510fee2.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.3510fee2.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.55c7a284.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.55c7a284.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.59ef7322.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.59ef7322.js.map",
     "static/css/2.2bb1a24a.chunk.css": "/portfolio-react/static/css/2.2bb1a24a.chunk.css",
@@ -14,9 +14,9 @@
     "static/js/2.a5ce9b79.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.a5ce9b79.chunk.js.LICENSE.txt",
     "static/media/ecommerce-backend.361e8569.jpg": "/portfolio-react/static/media/ecommerce-backend.361e8569.jpg",
     "static/media/employee-management-system.90711c86.jpg": "/portfolio-react/static/media/employee-management-system.90711c86.jpg",
-    "static/media/img1.33043ca7.jpeg": "/portfolio-react/static/media/img1.33043ca7.jpeg",
-    "static/media/img2.32f43228.jpeg": "/portfolio-react/static/media/img2.32f43228.jpeg",
-    "static/media/img3.01ea064f.jpeg": "/portfolio-react/static/media/img3.01ea064f.jpeg",
+    "static/media/img1.912e52d0.jpeg": "/portfolio-react/static/media/img1.912e52d0.jpeg",
+    "static/media/img2.f303ed8e.jpeg": "/portfolio-react/static/media/img2.f303ed8e.jpeg",
+    "static/media/img3.82edd0da.jpeg": "/portfolio-react/static/media/img3.82edd0da.jpeg",
     "static/media/portfolio.5085f37e.jpg": "/portfolio-react/static/media/portfolio.5085f37e.jpg",
     "static/media/profile.d4ce5d06.jpg": "/portfolio-react/static/media/profile.d4ce5d06.jpg",
     "static/media/tech-blog.0f9aeb22.jpg": "/portfolio-react/static/media/tech-blog.0f9aeb22.jpg",
@@ -28,6 +28,6 @@
     "static/css/2.2bb1a24a.chunk.css",
     "static/js/2.a5ce9b79.chunk.js",
     "static/css/main.8501c8de.chunk.css",
-    "static/js/main.3510fee2.chunk.js"
+    "static/js/main.55c7a284.chunk.js"
   ]
 }

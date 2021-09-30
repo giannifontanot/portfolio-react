@@ -18,7 +18,7 @@ export default function Work() {
 
                         <div className="mywork-container">
                             <a id="work"></a>
-                            <h2>My Work</h2>
+                            <h2>Portfolio</h2>
                             <hr/>
                             Following you will find a selection of my best projects completed during my <strong>Bootcamp</strong> in <strong>SMU</strong>.<br/><br/>
                         </div>
@@ -68,6 +68,7 @@ export default function Work() {
                                  content={<React.Fragment>This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!</React.Fragment>}
                         />
                     </main>
+                        <footer><div>&copy; 2021 Gianni Fontanot</div></footer>
                 </div>
             </div>
         </div>

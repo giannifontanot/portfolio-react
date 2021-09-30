@@ -406,3 +406,16 @@ nav a:visited {
     margin-top:auto;
     margin-bottom:auto;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    margin-top: 5vh;
+}
+.form-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

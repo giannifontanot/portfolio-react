@@ -23,7 +23,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                             <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
-                                   onClick={() => handlePageChange('Work')}><div className="cell-menu">my work</div>
+                                   onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
@@ -66,7 +66,7 @@ function NavTabs({pageToDraw, handlePageChange}) {
                                     <td>
                                         <a className=""
                                            href="#"
-                                           onClick={() => handlePageChange('Work')}><div className="cell-menu">my work</div>
+                                           onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
                                         </a>
                                     </td>
                                     <td>

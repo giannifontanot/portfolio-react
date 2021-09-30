@@ -42,6 +42,8 @@ export default function About() {
                   <img className="pure-img img-about" src={img3} alt="" />
               </div>
           </div>
+          <footer><div>&copy; 2021 Gianni Fontanot</div></footer>
       </div>
+
   );
 }

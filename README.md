@@ -20,7 +20,8 @@ I used React to create this portfolio, and the PureCSS library is an essential c
 ## Usage
 You can fork the project and use it for your own portfolio, it is listed under the MIT license.
 
-![portfolio.gif](portfolio-react.gif)
+![portfolio-react.gif](portfolio-react.gif)
+![portfolio-react-mobile.gif](portfolio-react-mobile.gif)
 ## Credits
 Following you will find the websites that helped me the most:
 - [React for Beginners](https://www.guru99.com/reactjs-tutorial.html)

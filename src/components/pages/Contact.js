@@ -18,7 +18,7 @@ export default function Contact() {
                                     <fieldset>
                                         <div className="pure-control-group">
                                             <label htmlFor="aligned-name">Name</label>
-                                            <input type="text" id="aligned-name" placeholder="name"/>
+                                            <input type="text" id="aligned-name" placeholder="name" onBlur={window['checkEmpty']}/>
                                             <span className="pure-form-message-inline">This is a required field.</span>
                                         </div>
 

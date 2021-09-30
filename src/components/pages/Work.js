@@ -69,7 +69,7 @@ export default function Work() {
                                  content={<React.Fragment>This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!</React.Fragment>}
                         />
                         <Project title="Password Generator"
-                                 subtitle="Create yours today"
+                                 subtitle="Create yours today "
                                  location="password-generator"
                                  live="GitHub"
                                  image={PasswordGeneratorGif}

@@ -27,7 +27,7 @@
 body {
     background-color: #DDD;
     letter-spacing: 0.75pt;
-    line-height: 1.6;
+    line-height: 1.0;
     font-family: Verdana, sans-serif;
 
 }
@@ -218,7 +218,7 @@ nav a:visited {
 
     body {
         letter-spacing: 0.75pt;
-        line-height: 1.6;
+        line-height: 1.0;
     }
 
     .polaroid {

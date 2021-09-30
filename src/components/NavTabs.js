@@ -17,23 +17,23 @@ function NavTabs({pageToDraw, handlePageChange}) {
                             <td className={pageToDraw === 'About' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
-                                   onClick={() => handlePageChange('About')}>about me
+                                   onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
-                                   onClick={() => handlePageChange('Work')}>my work
+                                   onClick={() => handlePageChange('Work')}><div className="cell-menu">my work</div>
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
-                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} target="_blank">resume
+                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} target="_blank"><div className="cell-menu">resume</div>
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right" href="#"
-                                   onClick={() => handlePageChange('Contact')}>Contact
+                                   onClick={() => handlePageChange('Contact')}><div className="cell-menu">contact</div>
                                 </a>
                             </td>
                         </tr>
@@ -56,28 +56,28 @@ function NavTabs({pageToDraw, handlePageChange}) {
 
 
                             <table className="nav-table">
-                                <tr>
+                                <tr className="menu-horizontal">
                                     <td>
                                         <a className=""
                                            href="#"
-                                           onClick={() => handlePageChange('About')}>about me
+                                           onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
                                         </a>
                                     </td>
                                     <td>
                                         <a className=""
                                            href="#"
-                                           onClick={() => handlePageChange('Work')}>my work
+                                           onClick={() => handlePageChange('Work')}><div className="cell-menu">my work</div>
                                         </a>
                                     </td>
                                     <td>
                                         <a className=""
-                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"}  target="_blank">resume
+                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"}  target="_blank"><div className="cell-menu">resume</div>
                                         </a>
                                     </td>
                                     <td>
                                         <a className=""
                                            href="#"
-                                           onClick={() => handlePageChange('Contact')}>Contact
+                                           onClick={() => handlePageChange('Contact')}><div className="cell-menu">contact</div>
                                         </a>
                                     </td>
                                 </tr>

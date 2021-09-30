@@ -238,15 +238,6 @@ nav a:visited {
 }
 
 
-@media screen and (max-width: 750px) and (min-width: 350px){
-    .profile-image-right {
-        display: none;
-    }
-
-    .profile-image-center {
-        display: block;
-    }
-}
 
 /*SMALL screen*/
 @media screen and (max-width: 370px) {
@@ -402,4 +393,16 @@ nav a:visited {
 
 .flex-grid{
     display: flex;
+}
+
+.menu-horizontal{
+    height: 25px;
+
+}
+
+.cell-menu{
+    width: 100%;
+    height: 100%;
+    margin-top:auto;
+    margin-bottom:auto;
 }

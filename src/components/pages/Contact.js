@@ -2,16 +2,17 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <div>
+        <>
 
-            <div className="flex-grid">
                 <div className="main-content">
                     <main>
                         <div className="contact-container flex-grid tenths">
                             <div className="col-10">
-                                <a id="contact"></a>
+
                                 <h2>Contact</h2>
                                 <hr/>
+                                <h4>Drop me an email. Old-fashioned phone calls work too!</h4>
+
                             </div>
                             <div className="col-5 col-5-md col-10-sm contact-container-left">
                                 <div><strong>email</strong></div>
@@ -33,7 +34,7 @@ export default function Contact() {
                         </div>
                     </main>
                 </div>
-            </div>
-        </div>
+
+        </>
     );
 }

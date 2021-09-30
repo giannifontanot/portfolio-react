@@ -230,6 +230,11 @@ nav a:visited {
         font-size: calc(12px + 0.5vw);
         line-height: 1.6;
     }
+
+    .contact-container {
+        width: 60%;
+    }
+
 }
 
 
@@ -292,6 +297,10 @@ nav a:visited {
     }
     .ProjectDescription {
         font-size: calc(12px + 0.1vw)
+    }
+
+    .contact-container {
+        width: 80%;
     }
 }
 
@@ -391,3 +400,6 @@ nav a:visited {
     transform: rotate(10deg);
 }
 
+.flex-grid{
+    display: flex;
+}

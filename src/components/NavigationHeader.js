@@ -20,10 +20,10 @@ function NavigationHeader({pageToDraw, handlePageChange}) {
                                    onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
                                 </a>
                             </td>
-                            <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+                            <td className={pageToDraw === 'Portfolio' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right"
                                    href="#"
-                                   onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
+                                   onClick={() => handlePageChange('Portfolio')}><div className="cell-menu">portfolio</div>
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
@@ -68,10 +68,10 @@ function NavigationHeader({pageToDraw, handlePageChange}) {
                                                onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
                                             </a>
                                         </td>
-                                        <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+                                        <td className={pageToDraw === 'Portfolio' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                             <a className="nav-item-right"
                                                href="#"
-                                               onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
+                                               onClick={() => handlePageChange('Portfolio')}><div className="cell-menu">portfolio</div>
                                             </a>
                                         </td>
                                         <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>

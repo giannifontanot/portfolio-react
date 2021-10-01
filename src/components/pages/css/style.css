@@ -527,3 +527,10 @@ footer {
     margin-bottom: 10px;
     width: 5vh;
 }
+
+.main-content{
+    background-color: lightgray;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}

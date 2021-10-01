@@ -10,12 +10,12 @@ import Project from '../Project'
 
 
 
-export default function Work() {
+export default function Portfolio() {
     return (
         <>
         <div>
             <div className="flex-grid">
-                    <div className="main-content" style={{backgroundColor: "lightgray"}}>
+                    <div className="main-content" style={{}}>
                     <main>
 
                         <div className="mywork-container">

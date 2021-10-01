@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import NavigationHeader from './NavigationHeader';
-import Home from './pages/Work';
+import Home from './pages/Portfolio';
 import About from './pages/About';
-import Work from './pages/Work';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './Footer';
@@ -12,14 +12,14 @@ export default function PortfolioContainer() {
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
-        if (pageToDraw === 'Home') {
+        if (pageToDraw === 'Portfolio') {
             return <Home/>;
         }
         if (pageToDraw === 'About') {
             return <About/>;
         }
-        if (pageToDraw === 'Work') {
-            return <Work/>;
+        if (pageToDraw === 'Portfolio') {
+            return <Portfolio/>;
         }
         if (pageToDraw === 'Resume') {
             return <Resume/>;

@@ -15,6 +15,7 @@ export default function About() {
                           <a id="about"></a>
                           <h2>About me</h2>
                           <hr />
+                          {<React.Fragment>
                           <p>Hi there! My name is Gianni Fontanot, and I have been programming computers in many languages since
                               1998.
                               Back then I was working with now old technologies like PowerDynamo, Internet Information Server, and
@@ -23,9 +24,10 @@ export default function About() {
                           <p>In 2011, I did an
                               intermission and
                               decided to come
-                              to the United States to teach children in a bilingual classroom, and for ten years I enjoyed doing it.
-                              Now, after getting acquainted by the excellent SMU Bootcamp instructors about the new technologies developed in
+                              to the United States to teach children in a bilingual classroom, and for ten years I enjoyed doing so.
+                              Now, after getting acquainted by the excellent <strong>SMU Bootcamp instructors</strong> about the new technologies developed in
                               recent years, I am ready to get back to coding!</p>
+                          </React.Fragment>}
                       </div>
                   </main>
                   </div>
@@ -42,7 +44,6 @@ export default function About() {
                   <img className="pure-img img-about" src={img3} alt="" />
               </div>
           </div>
-          <footer><div>&copy; 2021 Gianni Fontanot</div></footer>
       </div>
 
   );

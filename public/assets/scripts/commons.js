@@ -125,3 +125,12 @@ function fOpenImage(image){
     //document.getElementsByTagName("img").style.cursor = "pointer";
     window.open(image, '_blank',);
 }
+
+function checkEmptyName(){
+    const nameEl = document.getElementById('aligned-name');
+    alert(nameEl.value);
+    if(nameEl.value === ""){
+        alert("Name is a requiredfield");
+        nameEl.focus();
+    }
+}

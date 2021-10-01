@@ -21,7 +21,7 @@
 }
 
 .vred {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 body {
@@ -52,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     background-color: #171B1D;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
 }
 
 
@@ -129,7 +128,8 @@ nav {
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     border-radius: 3px;
-    background-color: #121311;
+    /*background-color: #121311;*/
+    background-color: #171B1D;
 }
 
 .nav-container-top {
@@ -182,7 +182,6 @@ nav a:visited {
 }
 
 
-
 /*BIG screen*/
 @media screen and (min-width: 369px) {
     .profile-image-right {
@@ -226,6 +225,7 @@ nav a:visited {
     .polaroid {
         width: 150px;
     }
+
     .ProjectDescription {
         font-size: calc(12px + 0.5vw);
         line-height: 1.6;
@@ -235,8 +235,15 @@ nav a:visited {
         width: 60%;
     }
 
+    .skill-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .skills-resume {
+        align-self: flex-start;
+    }
 }
-
 
 
 /*SMALL screen*/
@@ -286,6 +293,7 @@ nav a:visited {
     .polaroid {
         width: 45vw;
     }
+
     .ProjectDescription {
         font-size: calc(12px + 0.1vw)
     }
@@ -293,8 +301,16 @@ nav a:visited {
     .contact-container {
         width: 80%;
     }
-}
 
+    .skill-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skills-resume {
+        align-self: center;
+    }
+}
 
 
 .contact-container {
@@ -391,31 +407,79 @@ nav a:visited {
     transform: rotate(10deg);
 }
 
-.flex-grid{
+.flex-grid {
     display: flex;
 }
 
-.menu-horizontal{
+.menu-horizontal {
     height: 25px;
 
 }
 
-.cell-menu{
+.cell-menu {
     width: 100%;
     height: 100%;
-    margin-top:auto;
-    margin-bottom:auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: gray;
     margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
 }
-.form-email{
+
+.form-email {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.img-resume {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 50px;
+    background-color: #f4f5f6;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 10px 0px;
+    padding: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.skills-resume {
+    align-self: center;
+    font-weight: bolder;
+}
+
+.resume-link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.skill-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.end-portfolio{
+    background: linear-gradient(to bottom, lightgray, white);
+    height: 100px;
 }

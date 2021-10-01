@@ -27,9 +27,13 @@ function NavTabs({pageToDraw, handlePageChange}) {
                                 </a>
                             </td>
                             <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
-                                <a className="nav-item-right"
-                                   href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"} target="_blank"><div className="cell-menu">resume</div>
-                                </a>
+
+                                    <a className=""
+                                       href="#"
+                                       onClick={() => handlePageChange('Resume')}>
+                                        <div className="cell-menu">resume</div>
+                                    </a>
+
                             </td>
                             <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>
                                 <a className="nav-item-right" href="#"
@@ -57,30 +61,34 @@ function NavTabs({pageToDraw, handlePageChange}) {
 
                             <table className="nav-table">
                                 <tr className="menu-horizontal">
-                                    <td>
-                                        <a className=""
-                                           href="#"
-                                           onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a className=""
-                                           href="#"
-                                           onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a className=""
-                                           href={process.env.PUBLIC_URL + "/assets/pdf/resume.pdf"}  target="_blank"><div className="cell-menu">resume</div>
-                                        </a>
-                                    </td>
-                                    <td>
-                                        <a className=""
-                                           href="#"
-                                           onClick={() => handlePageChange('Contact')}><div className="cell-menu">contact</div>
-                                        </a>
-                                    </td>
-                                </tr>
+
+                                        <td className={pageToDraw === 'About' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+                                            <a className="nav-item-right"
+                                               href="#"
+                                               onClick={() => handlePageChange('About')}><div className="cell-menu">about me</div>
+                                            </a>
+                                        </td>
+                                        <td className={pageToDraw === 'Work' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+                                            <a className="nav-item-right"
+                                               href="#"
+                                               onClick={() => handlePageChange('Work')}><div className="cell-menu">portfolio</div>
+                                            </a>
+                                        </td>
+                                        <td className={pageToDraw === 'Resume' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+
+                                            <a className=""
+                                               href="#"
+                                               onClick={() => handlePageChange('Resume')}>
+                                                <div className="cell-menu">resume</div>
+                                            </a>
+
+                                        </td>
+                                        <td className={pageToDraw === 'Contact' ? 'nav-table-cell-active' : 'nav-table-cell'}>
+                                            <a className="nav-item-right" href="#"
+                                               onClick={() => handlePageChange('Contact')}><div className="cell-menu">contact</div>
+                                            </a>
+                                        </td>
+                                    </tr>
                             </table>
                         </nav>
 

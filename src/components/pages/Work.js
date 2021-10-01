@@ -12,6 +12,7 @@ import Project from '../Project'
 
 export default function Work() {
     return (
+        <>
         <div>
             <div className="flex-grid">
                     <div className="main-content" style={{backgroundColor: "lightgray"}}>
@@ -69,17 +70,18 @@ export default function Work() {
                                  content={<React.Fragment>This little app aims to show the weather of any country in the world, along with the moon phases for the next five days... Werewolves, take note!</React.Fragment>}
                         />
                         <Project title="Password Generator"
-                                 subtitle="Create yours today "
+                                 subtitle="Create Yours Today "
                                  location="password-generator"
                                  live="GitHub"
                                  image={PasswordGeneratorGif}
                                  content={<React.Fragment>Password generator is a webapp that creates a password following this criteria: It can have from 1 to 128 combinations of lowercase, uppercase, numeric, and/or special characters.</React.Fragment>}
                         />
                     </main>
-                        <footer><div>&copy; 2021 Gianni Fontanot</div></footer>
                 </div>
             </div>
         </div>
+        <div className="end-portfolio"></div>
+    </>
     );
 }
 

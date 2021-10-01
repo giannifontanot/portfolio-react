@@ -13,17 +13,13 @@ export default function Footer() {
                 <div>
                     <div className="logo-container">
 
-                        <div><a href="mailto:giannifontanot@gmail.com"><img className="imxg-thumbnail logo-img" alt=""
-                                                                            src={GmailPNG}/></a></div>
+                        <div className="logo-img"><a href="mailto:giannifontanot@gmail.com"><img className="img-thumbnail" alt="" src={GmailPNG}/></a></div>
 
-                        <div><a href="https://stackoverflow.com/users/15772854/gianni-fontanot"><img
-                            className="imxg-thumbnail logo-img" alt="" src={StackPNG}/></a></div>
+                        <div className="logo-img"><a href="https://stackoverflow.com/users/15772854/gianni-fontanot"><img className="img-thumbnail" alt="" src={StackPNG}/></a></div>
 
-                        <div><a href="https://www.linkedin.com/in/gianni-fontanot"><img
-                            className="imxg-thumbnail logo-img" alt="" src={LinkedInPNG}/></a></div>
+                        <div className="logo-img"><a href="https://www.linkedin.com/in/gianni-fontanot"><img className="img-thumbnail" alt="" src={LinkedInPNG}/></a></div>
 
-                        <div><a href="https://github.com/giannifontanot"><img className="imxg-thumbnail logo-img" alt=""
-                                                                              src={GitHubPNG}/></a></div>
+                        <div className="logo-img"><a href="https://github.com/giannifontanot"><img className="img-thumbnail" alt="" src={GitHubPNG}/></a></div>
                     </div>
                 </div>
 

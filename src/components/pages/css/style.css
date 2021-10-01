@@ -320,11 +320,16 @@ nav a:visited {
     .logo-img{
         margin: 20px;
         margin-bottom: 10px;
-        width: 100%;
+        padding: 5px;
+        border: 1px solid red;
     }
 
 }
 
+.center-text{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .contact-container {
     padding: 5px 5px 5px 15px;

@@ -52,7 +52,7 @@ function NavigationHeader({pageToDraw, handlePageChange}) {
                         </div>
                     </div>
                     <div className="col-3 col-3-md col-10-sm text-center name-container">
-                        <div className="profile-name">Gianni Fontanotx</div>
+                        <div className="profile-name">Gianni Fontanot</div>
                         <div className="profile-email">giannifontanot@gmail.com</div>
                     </div>
 

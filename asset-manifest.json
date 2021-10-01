@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.fa460a37.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.1306cced.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.1306cced.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.9da1dd23.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.7f16b60b.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.7f16b60b.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.59ef7322.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.59ef7322.js.map",
     "static/css/2.2bb1a24a.chunk.css": "/portfolio-react/static/css/2.2bb1a24a.chunk.css",
@@ -10,13 +10,17 @@
     "static/js/2.fdd5f9ec.chunk.js.map": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.2bb1a24a.chunk.css.map": "/portfolio-react/static/css/2.2bb1a24a.chunk.css.map",
-    "static/css/main.fa460a37.chunk.css.map": "/portfolio-react/static/css/main.fa460a37.chunk.css.map",
+    "static/css/main.9da1dd23.chunk.css.map": "/portfolio-react/static/css/main.9da1dd23.chunk.css.map",
     "static/js/2.fdd5f9ec.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.LICENSE.txt",
     "static/media/ecommerce-backend.361e8569.jpg": "/portfolio-react/static/media/ecommerce-backend.361e8569.jpg",
     "static/media/employee-management-system.90711c86.jpg": "/portfolio-react/static/media/employee-management-system.90711c86.jpg",
+    "static/media/github.553c6615.png": "/portfolio-react/static/media/github.553c6615.png",
+    "static/media/gmail.23d2a9b0.png": "/portfolio-react/static/media/gmail.23d2a9b0.png",
     "static/media/img1.912e52d0.jpeg": "/portfolio-react/static/media/img1.912e52d0.jpeg",
     "static/media/img2.f303ed8e.jpeg": "/portfolio-react/static/media/img2.f303ed8e.jpeg",
     "static/media/img3.82edd0da.jpeg": "/portfolio-react/static/media/img3.82edd0da.jpeg",
+    "static/media/linkedin.e65fd24a.png": "/portfolio-react/static/media/linkedin.e65fd24a.png",
+    "static/media/overflowing.ee62b10b.png": "/portfolio-react/static/media/overflowing.ee62b10b.png",
     "static/media/password-generator.cf6e2515.gif": "/portfolio-react/static/media/password-generator.cf6e2515.gif",
     "static/media/portfolio.5085f37e.jpg": "/portfolio-react/static/media/portfolio.5085f37e.jpg",
     "static/media/profile.d4ce5d06.jpg": "/portfolio-react/static/media/profile.d4ce5d06.jpg",
@@ -29,7 +33,7 @@
     "static/js/runtime-main.59ef7322.js",
     "static/css/2.2bb1a24a.chunk.css",
     "static/js/2.fdd5f9ec.chunk.js",
-    "static/css/main.fa460a37.chunk.css",
-    "static/js/main.1306cced.chunk.js"
+    "static/css/main.9da1dd23.chunk.css",
+    "static/js/main.7f16b60b.chunk.js"
   ]
 }

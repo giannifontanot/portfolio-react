@@ -132,6 +132,11 @@ nav {
     background-color: #171B1D;
 }
 
+.cell-menu {
+
+  
+}
+
 .nav-container-top {
     width: 100%;
 }
@@ -426,12 +431,7 @@ nav a:visited {
 
 }
 
-.cell-menu {
-    width: 100%;
-    height: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
 
 footer {
     display: flex;

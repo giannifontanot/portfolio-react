@@ -244,10 +244,6 @@ nav a:visited {
         align-self: flex-start;
     }
 
-    .logo-img{
-
-        width: 40%;
-    }
 
 }
 
@@ -315,10 +311,6 @@ nav a:visited {
     }
     .skills-resume {
         align-self: center;
-    }
-    .logo-img{
-
-        widxth: 40px;
     }
 
 }
@@ -511,7 +503,7 @@ footer {
 .logo-img{
     margin: 20px;
     margin-bottom: 10px;
-
+    width: 20%;
 }
 
 .footer-logo-container{

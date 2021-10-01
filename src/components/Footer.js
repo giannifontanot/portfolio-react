@@ -13,16 +13,16 @@ export default function Footer() {
                 <div>
                     <div className="logo-container">
 
-                        <div><a href="mailto:giannifontanot@gmail.com"><img className="img-thumbnail logo-img" alt=""
+                        <div><a href="mailto:giannifontanot@gmail.com"><img className="imxg-thumbnail logo-img" alt=""
                                                                             src={GmailPNG}/></a></div>
 
                         <div><a href="https://stackoverflow.com/users/15772854/gianni-fontanot"><img
-                            className="img-thumbnail logo-img" alt="" src={StackPNG}/></a></div>
+                            className="imxg-thumbnail logo-img" alt="" src={StackPNG}/></a></div>
 
                         <div><a href="https://www.linkedin.com/in/gianni-fontanot"><img
-                            className="img-thumbnail logo-img" alt="" src={LinkedInPNG}/></a></div>
+                            className="imxg-thumbnail logo-img" alt="" src={LinkedInPNG}/></a></div>
 
-                        <div><a href="https://github.com/giannifontanot"><img className="img-thumbnail logo-img" alt=""
+                        <div><a href="https://github.com/giannifontanot"><img className="imxg-thumbnail logo-img" alt=""
                                                                               src={GitHubPNG}/></a></div>
                     </div>
                 </div>

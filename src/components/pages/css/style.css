@@ -483,3 +483,7 @@ footer {
     background: linear-gradient(to bottom, lightgray, white);
     height: 100px;
 }
+
+.error{
+    background-color: orangered;
+}

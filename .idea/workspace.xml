@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/EmailInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NameInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NameTextarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Resume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scripts/commons.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scripts/commons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavTabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PortfolioContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smu-dal-fsf-pt-04-2021-u-c/20-React/02-Homework/README.md" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -106,7 +99,7 @@
       <workItem from="1633017150620" duration="3893000" />
       <workItem from="1633021467636" duration="6831000" />
       <workItem from="1633042227122" duration="2653000" />
-      <workItem from="1633044969902" duration="14389000" />
+      <workItem from="1633044969902" duration="15929000" />
     </task>
     <servers />
   </component>

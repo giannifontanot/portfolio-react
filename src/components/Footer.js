@@ -10,7 +10,7 @@ export default function Footer() {
         <footer className="">
             <div className="footer-logo-container">
 
-                <div>
+                <div >
                     <div className="logo-container">
 
                         <div className="logo-img"><a href="mailto:giannifontanot@gmail.com"><img className="img-thumbnail" alt="" src={GmailPNG}/></a></div>
@@ -26,9 +26,15 @@ export default function Footer() {
 
                 <div className="center-text">
 
-                    <span className="copyright-message">Icons made by <a href="https://www.freepik.com"
-                                                                         title="Freepik">Freepik</a> from <a
-                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+                    <span className="copyright-message">
+                        Icons made by
+                        <a
+                        href="https://www.freepik.com"
+                        title="Freepik">Freepik</a> from
+                        <a
+                        href="https://www.flaticon.com/"
+                        title="Flaticon">www.flaticon.com</a>
+                    </span>
                 </div>
             </div>
         </footer>

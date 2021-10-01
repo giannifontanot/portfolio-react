@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.8cf4b344.chunk.css",
+    "main.css": "/portfolio-react/static/css/main.e3b030a5.chunk.css",
     "main.js": "/portfolio-react/static/js/main.9ed3a88b.chunk.js",
     "main.js.map": "/portfolio-react/static/js/main.9ed3a88b.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.59ef7322.js",
@@ -10,7 +10,7 @@
     "static/js/2.fdd5f9ec.chunk.js.map": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.2bb1a24a.chunk.css.map": "/portfolio-react/static/css/2.2bb1a24a.chunk.css.map",
-    "static/css/main.8cf4b344.chunk.css.map": "/portfolio-react/static/css/main.8cf4b344.chunk.css.map",
+    "static/css/main.e3b030a5.chunk.css.map": "/portfolio-react/static/css/main.e3b030a5.chunk.css.map",
     "static/js/2.fdd5f9ec.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.LICENSE.txt",
     "static/media/ecommerce-backend.361e8569.jpg": "/portfolio-react/static/media/ecommerce-backend.361e8569.jpg",
     "static/media/employee-management-system.90711c86.jpg": "/portfolio-react/static/media/employee-management-system.90711c86.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.59ef7322.js",
     "static/css/2.2bb1a24a.chunk.css",
     "static/js/2.fdd5f9ec.chunk.js",
-    "static/css/main.8cf4b344.chunk.css",
+    "static/css/main.e3b030a5.chunk.css",
     "static/js/main.9ed3a88b.chunk.js"
   ]
 }

@@ -244,11 +244,7 @@ nav a:visited {
         align-self: flex-start;
     }
 
-    .logo-img{
-        margin: 20px;
-        margin-bottom: 10px;
-        width: 15%;
-    }
+
 }
 
 
@@ -317,12 +313,6 @@ nav a:visited {
         align-self: center;
     }
 
-    .logo-img{
-        margin: 20px;
-        margin-bottom: 10px;
-        padding: 5px;
-        border: 1px solid red;
-    }
 
 }
 
@@ -530,4 +520,10 @@ footer {
 .copyright-message{
     margin-right: auto;
     margin-left: auto;
+}
+
+.logo-img{
+    margin: 20px;
+    margin-bottom: 10px;
+    width: 5vh;
 }

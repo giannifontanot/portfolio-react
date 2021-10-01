@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.8501c8de.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.9ecabe16.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.9ecabe16.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.3f542998.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.85f2ff85.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.85f2ff85.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.59ef7322.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.59ef7322.js.map",
     "static/css/2.2bb1a24a.chunk.css": "/portfolio-react/static/css/2.2bb1a24a.chunk.css",
-    "static/js/2.a5ce9b79.chunk.js": "/portfolio-react/static/js/2.a5ce9b79.chunk.js",
-    "static/js/2.a5ce9b79.chunk.js.map": "/portfolio-react/static/js/2.a5ce9b79.chunk.js.map",
+    "static/js/2.fdd5f9ec.chunk.js": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js",
+    "static/js/2.fdd5f9ec.chunk.js.map": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.2bb1a24a.chunk.css.map": "/portfolio-react/static/css/2.2bb1a24a.chunk.css.map",
-    "static/css/main.8501c8de.chunk.css.map": "/portfolio-react/static/css/main.8501c8de.chunk.css.map",
-    "static/js/2.a5ce9b79.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.a5ce9b79.chunk.js.LICENSE.txt",
+    "static/css/main.3f542998.chunk.css.map": "/portfolio-react/static/css/main.3f542998.chunk.css.map",
+    "static/js/2.fdd5f9ec.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.fdd5f9ec.chunk.js.LICENSE.txt",
     "static/media/ecommerce-backend.361e8569.jpg": "/portfolio-react/static/media/ecommerce-backend.361e8569.jpg",
     "static/media/employee-management-system.90711c86.jpg": "/portfolio-react/static/media/employee-management-system.90711c86.jpg",
     "static/media/img1.912e52d0.jpeg": "/portfolio-react/static/media/img1.912e52d0.jpeg",
@@ -20,6 +20,7 @@
     "static/media/password-generator.cf6e2515.gif": "/portfolio-react/static/media/password-generator.cf6e2515.gif",
     "static/media/portfolio.5085f37e.jpg": "/portfolio-react/static/media/portfolio.5085f37e.jpg",
     "static/media/profile.d4ce5d06.jpg": "/portfolio-react/static/media/profile.d4ce5d06.jpg",
+    "static/media/resume.ea87001e.jpg": "/portfolio-react/static/media/resume.ea87001e.jpg",
     "static/media/tech-blog.0f9aeb22.jpg": "/portfolio-react/static/media/tech-blog.0f9aeb22.jpg",
     "static/media/test-taker.8ad5d5dd.jpg": "/portfolio-react/static/media/test-taker.8ad5d5dd.jpg",
     "static/media/weather-dashboard.f62635be.jpg": "/portfolio-react/static/media/weather-dashboard.f62635be.jpg"
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.59ef7322.js",
     "static/css/2.2bb1a24a.chunk.css",
-    "static/js/2.a5ce9b79.chunk.js",
-    "static/css/main.8501c8de.chunk.css",
-    "static/js/main.9ecabe16.chunk.js"
+    "static/js/2.fdd5f9ec.chunk.js",
+    "static/css/main.3f542998.chunk.css",
+    "static/js/main.85f2ff85.chunk.js"
   ]
 }

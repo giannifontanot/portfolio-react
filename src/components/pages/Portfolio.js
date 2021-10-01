@@ -13,9 +13,9 @@ import Project from '../Project'
 export default function Portfolio() {
     return (
         <>
-        <div>
+        <div className="background-portfolio">
             <div className="flex-grid">
-                    <div className="main-content" style={{}}>
+                    <div className="main-content"  style={{backgroundColor: "lightgray"}}>
                     <main>
 
                         <div className="mywork-container">

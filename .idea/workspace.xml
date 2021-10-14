@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eafb3d1-4a99-40c4-93f0-fa65d1295983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/pdf/ResumeV1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/pdf/resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Resume.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smu-dal-fsf-pt-04-2021-u-c/20-React/02-Homework/README.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -96,6 +100,10 @@
       <workItem from="1633021467636" duration="6831000" />
       <workItem from="1633042227122" duration="2653000" />
       <workItem from="1633044969902" duration="28394000" />
+      <workItem from="1633170902773" duration="55000" />
+      <workItem from="1633920894574" duration="1079000" />
+      <workItem from="1633973491808" duration="3803000" />
+      <workItem from="1634230630760" duration="676000" />
     </task>
     <servers />
   </component>

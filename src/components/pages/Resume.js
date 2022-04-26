@@ -36,8 +36,8 @@ export default function Resume() {
                                 </div>
                                 <div className="col-5 col-5-md col-10-sm ">
                                     <div className="resume-link-container">
-                                    <a className="" href={process.env.PUBLIC_URL + "/assets/pdf/ResumeApril2022.pdf"} target="_blank">Resume</a>
-                                    <a className="" href={process.env.PUBLIC_URL + "/assets/pdf/ResumeApril2022.pdf"}
+                                    <a className="" href={process.env.PUBLIC_URL + "/assets/pdf/ResumeV1.pdf"} target="_blank">Resume</a>
+                                    <a className="" href={process.env.PUBLIC_URL + "/assets/pdf/ResumeV1.pdf"}
                                        target="_blank">
 
                                         <img className="img-resume" src={resumeGif}/>
